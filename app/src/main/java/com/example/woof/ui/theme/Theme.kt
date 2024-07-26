@@ -290,6 +290,13 @@ fun WoofTheme(
     )
 }
 
+class ArithmeticOperations(var x: Int, var y: Int) {
+    fun addition() = x + y
+    fun subtraction() = x - y
+    fun multiplication() = x * y
+    fun division() = x / y
+}
+
 /**
  * Sets up edge-to-edge for the window of this [view]. The system icon colors are set to either
  * light or dark depending on whether the [darkTheme] is enabled or not.
